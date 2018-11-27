@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Online Application Form</title>
+</head>
+<body>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+
+    <form align=:"center"><h1>STUDENT REGISTRATION FORM</h1>
+        First name:
+        <input type="text" pattern="[A-Za-z]{0,25}" name="firstname" required><br><br>
+        Last name:
+        <input type="text" pattern="[A-Za-z]{0,25}" name="lastname" required><br><br>
+        Address:
+        <textarea rows=4 columns=30 pattern="[a-zA-Z/\\@#$%!?*-_]{2,50} required"></textarea><br><br>
+        Email Id:
+        <input type="email" name="email" required place holder="Enter a valid email address"><br><br>
+        City:
+        <select name="city">
+            <option value="">Choose here</option>
+            <option value="Karimnagar">Karimnagar</option>
+            <option value="Hyderabad">Hyderabad</option>
+            <option value="Warangal">Warangal</option>
+            <option value="Siddipet">Siddipet</option>
+        </select><br><br>
+        State:
+        <select name="State">
+            <option value="">Choose here</option>
+            <option value="Telangana">Telangana</option>
+            <option value="Andhra">Andhra</option>
+            <option value="Tamilnadu">Tamilnadu</option>
+            <option value="Maharastra">Maharastra</option>
+        </select><br><br>
+        University Branch Name:
+        <input type="text" name="University Branch Name" min=5 max=5 required><br><br>
+        Enter your phone number:
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required><br><br>
+        Enrolled course:
+        <a href="Course details.html">click here to select the course</a><br><br>
+        Date of Test:
+        <input type="date" name="dateoftest"><br><br>
+        Marks Obtained:
+        <input type="number" size="3" name="marks" min="50" max="100" value="55"><br><br>
+        <input type="submit" value="submit">
+    </form>  
+</body>
+</html>
