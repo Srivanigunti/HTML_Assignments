@@ -1,0 +1,30 @@
+/*Right-aligned section inside the top navigation*/
+.topnav-right{
+    float: right;
+    background-color: #FAFAD2;
+    overflow: hidden;
+    text-align: center;
+    padding: 70px 50px;
+}
+.top-left{
+    float: left;
+    padding: 40px;
+}
+section{
+    position: absolute;
+    left: 180px;
+    width: 550px;
+    height: 150px;
+    display: block;
+    padding: 10px;
+    background-color: white
+}
+aside{
+    position: absolute;
+    right: 185px;
+    width: 400px;
+    height: 138px;
+    display: block;
+    color: white;
+    background-color:red
+}
