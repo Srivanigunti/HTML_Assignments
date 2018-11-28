@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HDFC BANK</title>
+</head>
+<bodybgcolor="#FAFADA2" class="center">
+    <header class="top-left">
+        <h1 style="color: green;"><i><center>Customer details and Account details</center></i></h1>
+    </header>
+  
+    <center>
+        <form style="color: blue">
+    AccountHolderName :<br>
+        <input type="text" pattern="[A-Za-z]{0,25}" name="AccountHolderName " required><br><br>
+    Customer EmailId:<br>
+        <input type="email" name="email" required placeholder="Enter a valid email address"><br><br>
+    CustomerDOB: <br>
+    <input type="date" name="CustomerDOB" value="1996-11-18" min="2018-01-01" max="2000-11-21" required ><br><br>
+    CustomerPhoneNumber:<br>
+    <input type="tel" id="phone" name="phone" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required><br><br>
+    AccountType:<br>
+    <select name="Account type">
+        <option value="">Choose here</option>
+        <option value="Savings">Savings</option>
+        <option value="Current">Current</option>
+    </select><br><br>
+    <input type="submit" value="submit">
+    <button type="reset" value="reset">reset </button>
+    <footer>
+        <p>Contact information: <a href="mailto:someone@example.com"> someone@example.com</a></p>
+    </footer>
+</form>
+</center>
+</body>
+</html>

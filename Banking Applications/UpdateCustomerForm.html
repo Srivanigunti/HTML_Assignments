@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="C:\Users\srgunti\Desktop\HTML Assignment\Banking Applications\css\style2.css">
+</head>
+<bodybgcolor="#FAFADA2" class="center">
+    <header class="top-left">
+       <center> <h1 style="color: green;"><i>Fill the below to update your details</i></h1></center>
+    </header>
+    <center>
+    <form style="color: blue;">
+        CustomerID:<br>
+        <input type="text" name="CustomerID" value="Name" readonly><br><br>
+        CustomerName:<br>
+        <input type="text" pattern="[A-Za-z]{0,25}" name="AccountHolderName " required ><br><br>
+        AccountNumber:<br>
+        <input type="number" name="AccountNumber" value="166012373848734" readonly ><br><br>
+        Email ID: <br>
+        <input type="email" name="email" required placeholder="Enter a valid email address"><br><br>
+        PhoneNo:<br>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required><br><br> 
+        DateOfBirth:<br> 
+        <input type="date" name="CustomerDOB" value="1996-11-18" min="2018-01-01" max="2000-11-21" required ><br><br>
+        <input type="submit" value="submit">
+        <button type="reset" value="reset">reset </button>
+    </form>
+    </center>
+    <footer>
+       <center> <p>Contact information: <a href="mailto:someone@example.com"> someone@example.com</a></p></center>
+    </footer>
+</body>
+</html>
