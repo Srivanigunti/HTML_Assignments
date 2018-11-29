@@ -1,6 +1,6 @@
 img {
     class :center;
-    width: 50%;
+    width: 100%;
     height:100px;
     
 }
@@ -9,10 +9,10 @@ img {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    background-image:"background.png"
 }
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: black;
 }
 
 * {

@@ -8,7 +8,7 @@ th,td{
 }
 .top-left{
     float: left;
-    padding: 40px;
+    padding: 10px;
 }
 .center{
     display: block;
@@ -19,7 +19,8 @@ th,td{
 footer{
     position: absolute;
     bottom: 0px;
-    padding: 20px 400px;
+    padding: 10px 430px;
+    background-color: rgb(70,130,180);
 }
 .topnav-right{
     float: right;
@@ -27,4 +28,39 @@ footer{
     overflow: hidden;
     text-align: center;
     padding: 70px 50px;
+}
+article{
+    position: absolute;
+    left: 180px;
+    width: 600px;
+    height: 200px;
+    display: block;
+    padding: 130px;
+}
+ul{
+    list-style-type: none;
+    margin: 100;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #111;
+}
+header{
+    padding:5px 30px 10px;
+    background-color: rgb(70,130,180);
+}
+.image{
+    border-radius: 0px;
 }
